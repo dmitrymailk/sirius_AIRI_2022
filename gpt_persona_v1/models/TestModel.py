@@ -11,7 +11,9 @@ class TestModel(nn.Module):
     def forward(self, x):
         batch_size, sequence_length = x.shape[:2]
         hidden_states = torch.rand(
-            (batch_size, sequence_length, 32), dtype=torch.float32, requires_grad=True
+            (batch_size, sequence_length, 32),
+            dtype=torch.float32,
+            device=x.get_device(),
         )
         logits = self.lin(hidden_states)
 
