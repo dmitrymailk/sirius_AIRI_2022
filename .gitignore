@@ -166,3 +166,5 @@ cached/
 runs/
 *.txt
 *.pt
+*/wandb/*
+*/wandb
