@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-from transformers import GPT2PreTrainedModel, GPT2Model, GPT2Config
+from transformers import GPT2PreTrainedModel, GPT2Model, GPT2Config, AutoModel
 
 
 class GPT2LMModel(GPT2PreTrainedModel):
