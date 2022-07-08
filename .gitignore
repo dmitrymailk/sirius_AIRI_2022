@@ -168,3 +168,6 @@ runs/
 *.pt
 */wandb/*
 */wandb
+*/artifacts
+*/artifacts/*
+*/files/*
